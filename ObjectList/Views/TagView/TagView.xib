@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TagView" customModule="ObjectList" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="IwK-oU-WPk" customClass="TagView" customModule="ObjectList" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="111" height="24"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hillary Clinton" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Os-8X-rcR">
+                    <rect key="frame" x="16" y="4.5" width="79" height="15"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="1Os-8X-rcR" firstAttribute="leading" secondItem="IwK-oU-WPk" secondAttribute="leading" constant="16" id="KhQ-el-OS1"/>
+                <constraint firstItem="1Os-8X-rcR" firstAttribute="centerY" secondItem="IwK-oU-WPk" secondAttribute="centerY" id="Tz7-ZL-be0"/>
+                <constraint firstAttribute="trailing" secondItem="1Os-8X-rcR" secondAttribute="trailing" constant="16" id="fXD-fJ-YfU"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="35f-Fs-G4d"/>
+            <connections>
+                <outlet property="captionLabel" destination="1Os-8X-rcR" id="YPa-x7-gog"/>
+            </connections>
+            <point key="canvasLocation" x="1145.6521739130435" y="-147.32142857142856"/>
+        </view>
+    </objects>
+</document>

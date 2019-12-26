@@ -1,0 +1,6 @@
+framework module Pods_ObjectList {
+  umbrella header "Pods-ObjectList-umbrella.h"
+
+  export *
+  module * { export * }
+}
